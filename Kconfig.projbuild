@@ -1,4 +1,4 @@
-menu "WiFiPlus Configuration"
+menu "WiFiMinus Configuration"
     config ESP_WIFI_SSID
         string "WiFi SSID"
         default "ESP32-AP"
