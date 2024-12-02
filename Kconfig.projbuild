@@ -1,0 +1,19 @@
+menu "WiFiPlus Configuration"
+    config ESP_WIFI_SSID
+        string "WiFi SSID"
+        default "ESP32-AP"
+        help
+            Insert the name of the SSID (network name) here.
+
+    config ESP_WIFI_PASSWORD
+        string "WiFi Password"
+        default "12345678"
+        help
+            Insert the password of your WiFi here.
+
+    config ESP_MAXIMUM_RETRY
+        int "Maximum retry"
+        default 5
+        help
+            The amount of times the ESP32 will try to connect to the WiFi on disconnect.
+endmenu
